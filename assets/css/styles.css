@@ -94,6 +94,7 @@ p{
     }
 }
 
+
 .h{
     background-color: #f1f1f1;
 }
@@ -135,6 +136,7 @@ scrollbar
 /* -------------------------------------
 HEADER
 ------------------------------------- */
+
 
 
 .h-menu{
@@ -200,9 +202,33 @@ HEADER
             
             
             
-                
+/* -------------------------------------
+UNDERLINE ANIMATION
+------------------------------------- */                
 
-                
+.hover-underline-ani {
+    display: inline-block;
+    position: relative;
+    color: #0026c9;
+  }
+  
+  .hover-underline-ani:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: #0026c9;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-ani:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }                
 
 
 /* -------------------------------------
@@ -287,8 +313,9 @@ MAIN home
                     align-items: flex-end;
                 }
                     .view-button{
-                        width: 30%;
-                    height: 30%;
+                    /* width: 30%; */
+                    padding: 0.2em 0;
+                    /* height: 30%; */
 
                     display: flex;
                     flex-direction: column;
