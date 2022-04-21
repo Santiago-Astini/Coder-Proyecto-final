@@ -362,7 +362,7 @@ MAIN home
                     
 
                     /* filter: invert(100%) sepia(7%) saturate(692%) hue-rotate(175deg) brightness(114%) contrast(99%); */
-                    filter: invert(0%) sepia(3%) saturate(12%) hue-rotate(62deg) brightness(95%) contrast(103%);
+                    filter: invert(17%) sepia(78%) saturate(4015%) hue-rotate(228deg) brightness(77%) contrast(125%);
                  }
             .show-prj__bk{
                 /* position: absolute; */
@@ -828,9 +828,9 @@ MAIN:WORKS / illustratuions
             align-items: center;
         
         }
-        .display__img{
+        /* .display__img{
             width: ;
-        }
+        } */
     }
 
 
